@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="10" time="114.392">
+    <testcase classname="Test the functionality of Home page" name="Verify clicking of Home page" time="10.156">
+        <system-out><![CDATA[Given User launches the application.........................................passed
+When user clicks on Home page option........................................passed
+Then user is directed to Home  page.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test the functionality of Home page" name="Verify the contents of ATM services" time="8.65">
+        <system-out><![CDATA[Given User launches the application.........................................passed
+When user clicks on Home page option........................................passed
+Then user is directed to Home  page.........................................passed
+When user is able to view ATM services......................................passed
+And User is able to view   Withdrawal funds, Transfer funds, check balances, make deposits  of Online services.passed
+Then All the contents of ATM services are present...........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test the functionality of Home page" name="Verify the contents of Online services" time="8.922">
+        <system-out><![CDATA[Given User launches the application.........................................passed
+When user clicks on Home page option........................................passed
+Then user is directed to Home page..........................................passed
+When user is able to view  Online services..................................passed
+And User is able to view  Bill pay,Account History,Transfer funds of Online services.passed
+Then All the contents of Online services are present........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test the functionality of Home page" name="Verify the presence of Latest news image in Home page" time="8.276">
+        <system-out><![CDATA[Given User launches the application.........................................passed
+When user clicks on Home page option........................................passed
+Then user is directed to Home  page.........................................passed
+When User is able to view Latest News image.................................passed
+Then The presence of Latest news image is guaranteed........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test the functionality of products page" name="Verify clicking of products page" time="10.837">
+        <system-out><![CDATA[Given User launches the application.........................................passed
+When user clicks on products option.........................................passed
+Then user is directed to Products page......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test the functionality of products page" name="Verify the presence of Parasoft logo in products page" time="11.16">
+        <system-out><![CDATA[Given User launches the application.........................................passed
+When user clicks on products option.........................................passed
+And User is able to view parasoft logo......................................passed
+Then Presence of logo is confirmed..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test the functionality of products page" name="Verify the clicking of search field in products page" time="13.456">
+        <system-out><![CDATA[Given User launches the application.........................................passed
+When user clicks on products option.........................................passed
+And User views and clicks on search field...................................passed
+Then Search button is clickable.............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test the functionality of products page" name="Verify data entry in search field of products page" time="14.499">
+        <system-out><![CDATA[Given User launches the application.........................................passed
+When user clicks on products option.........................................passed
+And User views and clicks on search field...................................passed
+And user enters text into the search box and clicks enter...................passed
+Then search field is valid..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test the functionality of products page" name="Verify dropdown of Solutions in products page" time="11.262">
+        <system-out><![CDATA[Given User launches the application.........................................passed
+When user clicks on products option.........................................passed
+And clicks on solution......................................................passed
+And selects a drop down option..............................................passed
+Then dropdown is working fine...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test the functionality of products page" name="Verify selecting the language in Products page" time="16.945">
+        <system-out><![CDATA[Given User launches the application.........................................passed
+When user clicks on products option.........................................passed
+And user clicks on Language dropdown........................................passed
+And user selects on English language........................................passed
+Then the language of page is changed to english.............................passed
+]]></system-out>
+    </testcase>
+</testsuite>
